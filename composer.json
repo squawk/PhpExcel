@@ -10,5 +10,8 @@
         {
             "name": "Tomas Saghy"
         }
-    ]
+    ],
+    "require": {
+        "phpoffice/phpexcel": "dev-master",
+    }
 }
