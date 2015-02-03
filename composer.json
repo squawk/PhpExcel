@@ -1,0 +1,14 @@
+{
+    "name": "squawk/phpexcel",
+    "type": "cakephp-plugin",
+    "description": "Create XLS files",
+    "keywords": [
+        "cakephp",
+        "phpexcel"
+    ],
+    "authors": [
+        {
+            "name": "Tomas Saghy"
+        }
+    ]
+}
