@@ -231,7 +231,7 @@ class PhpExcelHelper extends AppHelper {
         $offset = $this->_tableParams['offset'];
 
         foreach ($data as $d)
-            $this->_xls->getActiveSheet()->setCellValueByColumnAndRow($offset++, $this->_row, $d);
+            $this->_xls->getActiveSheet()->setCellValueExplicitByColumnAndRow($offset++, $this->_row, $d);
 
         $this->_row++;
         $this->_tableParams['row_count']++;
